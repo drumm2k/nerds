@@ -1,0 +1,99 @@
+html,
+body {
+  min-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  background-color: #eeeeee;
+  padding-top: 30px;
+}
+
+.logo {
+  float: left;
+}
+
+.main-nav {
+  float: right;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.slider {
+  margin-bottom: 80px;
+}
+
+.slider-left {
+  float: left;
+}
+
+.slider-right {
+  float: right;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-1 {
+  float: left;
+  margin-right: 80px;
+}
+
+.features-2 {
+  float: left;
+  margin-right: 80px;
+}
+
+.features-3 {
+  float: left;
+}
+
+.about-top {
+  /* ??? */
+  padding-top: 70px;
+}
+
+.about-left {
+  float: left;
+}
+
+.about-right {
+  float: right;
+}
+
+.partners {
+  height: 166px;
+}
+
+.social {
+  height: 216px;
+}
+
+.social-icons {
+  float: left;
+  width: 320px;
+}
+
+.social-slogan {
+  float: left;
+}
