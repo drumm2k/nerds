@@ -3,6 +3,11 @@ body {
   min-width: 900px;
   margin: 0 auto;
   padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #283136;
+  line-height: 22px;
 }
 
 .clearfix::after {
@@ -19,74 +24,250 @@ body {
 
 .main-header {
   background-color: #eeeeee;
-  padding-top: 30px;
+  padding-top: 27px;
 }
 
 .logo {
   float: left;
+  margin-left: 1px;
 }
 
 .main-nav {
   float: right;
+  max-width: 680px;
+  margin-top: 27px;
 }
 
 .main-nav ul {
   list-style: none;
+  padding: 0;
+  font-size: 0;
 }
 
 .main-nav li {
   display: inline-block;
+  margin-left: 46px;
+}
+
+.main-nav li:last-child {
+  margin-left: 65px;
+}
+
+.main-nav a {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+ }
+
+.fa-shopping-cart {
+  color: #a6a6a6;
+  margin-right: 13px;
+  font-size: 50px;
 }
 
 .slider {
   margin-bottom: 80px;
+  padding-top: 47px;
+  padding-bottom: 63px;
 }
 
 .slider-left {
   float: left;
+  padding-top: 21px;
+  letter-spacing: normal;
 }
 
 .slider-right {
   float: right;
 }
 
+.slider-title {
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 18px;
+  color: #000000;
+  max-width: 250px;
+}
+
+.slider-left p {
+  margin-bottom: 28px;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 71px;
+  background-color: #fb565a;
+  border-radius: 3px;
+}
+
 .features {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #eeeeee;
 }
 
-.features-1 {
+.features-item {
   float: left;
   margin-right: 80px;
+  width: 240px;
 }
 
-.features-2 {
-  float: left;
-  margin-right: 80px;
+.features-item:last-child {
+  margin-right: 0;
 }
 
-.features-3 {
-  float: left;
+.features-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  padding-top: 2px;
+}
+
+.features p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+.features-2 p {
+  max-width: 215px;
+}
+
+.features-item .btn {
+  padding: 10px 40px;
+}
+
+.features-2 .btn {
+  background-color: #00ca74;
+}
+
+.features-3 .btn {
+  background-color: #efc84a;
 }
 
 .about-top {
-  /* ??? */
-  padding-top: 70px;
+  padding-top: 60px;
+  margin-bottom: 10px;
 }
 
 .about-left {
   float: left;
+  max-width: 620px;
 }
 
 .about-right {
   float: right;
+  max-width: 240px;
+}
+
+.about-slogan {
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.about-top p {
+  padding-top: 2px;
+}
+
+.about-bottom p {
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+
+.about-bottom ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-bottom li {
+
+}
+
+.about-bottom li::before {
+
 }
 
 .partners {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  padding-top: 50px;
   height: 166px;
+  margin-bottom: 85px;
+  vertical-align: middle;
+  font-size: 0px;
+  text-align: center;
+}
+
+.partners a {
+  line-height: 120px;
+  width: 280px;
+  height: 120px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  text-align: center;
+
+}
+
+.partners a:last-child {
+  margin-right: 0;
+}
+
+.partners img {
+  vertical-align: middle;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 415px;
+}
+
+.contacts {
+  
+}
+
+address {
+  float:left;
+  margin-top: 88px;
+  background-color: #ffffff; 
+  padding-left: 20px;
+  padding-top: 33px;
+  padding-bottom: 26px;
+  width: 250px;
+  text-decoration: none;
+  font-style: normal;
+  position: absolute; 
+  top: 10px; 
+  left: 400px; 
+  z-index: 3;
+}
+
+address p {
+  max-width: 210px;
+}
+
+address .btn {
+  padding: 10px 54px;
 }
 
 .social {
-  height: 216px;
+  padding-top: 78px;
+  height: 215px;
 }
 
 .social-icons {
@@ -94,6 +275,25 @@ body {
   width: 320px;
 }
 
+.social-icons a {
+  background-color: #e1e1e1;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  margin-right: 24px;
+  color: #ffffff;
+  line-height: 62px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 23px;
+}
+
 .social-slogan {
   float: left;
+}
+
+.social-slogan b {
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
 }

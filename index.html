@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Nerds</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,500,700' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/990bd0428a.js"></script>
   </head>
   <body>
   <header class="main-header">
@@ -17,7 +19,7 @@
           <li><a href="#">Клиенты</a></li>
           <li><a href="#">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
-          <li style="cart"><a href="#">Корзина</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>Корзина</a></li>
         </ul>
       </nav>
     </div>
@@ -26,7 +28,7 @@
       <div class="container clearfix">
         <div class="slider-left">
           <div class="slider-title">
-            Долго, дорого,<br>
+            Долго, дорого,
             скрупулезно.
           </div>
           <p>
@@ -42,48 +44,48 @@
     </div>
   </header>
     
-  <div class="features">
-    <div class="container clearfix">
-      <div class="features-1">
+  <section class="container">
+    <div class="features clearfix">
+      <div class="features-item features-1">
         <img src="../img/sites.png" height="124" width="240" alt="Веб-сайты">
         <h2 class="features-title">Веб-сайты</h2>
         <p>
-          Мир никогда не будет прежним<br>
+          Мир никогда не будет прежним
           после того как увидит ваш сайт!
         </p>
         <a href="#" class="btn">Заказать</a>
       </div>
-      <div class="features-2">
+      <div class="features-item features-2">
         <img src="../img/apps.png" height="124" width="240" alt="Приложения">
         <h2 class="features-title">Приложения</h2>
         <p>
-          Покорите топ-10 приложений<br>
+          Покорите топ-10 приложений
           в AppStrore и Google Play
         </p>
         <a href="#" class="btn">Заказать</a>
       </div>
-      <div class="features-3">
+      <div class="features-item features-3">
         <img src="../img/presentations.png" height="124" width="240" alt="Презентации">
         <h2 class="features-title">Презентации</h2>
         <p>
-          Вы даже не подозреваете,<br>
+          Вы даже не подозреваете,
           насколько вы изумительны!
         </p>
         <a href="#" class="btn">Заказать</a>
       </div>
     </div>
-  </div>
+  </section>
     
-  <div class="about">
+  <section class="about">
     <div class="container clearfix">
       <div class="about-top clearfix">
         <div class="about-left">
           <p class="about-slogan">
-            Мы — маленькая, но гордая<br>
+            Мы — маленькая, но гордая
             дизайн-студия из Краснодара.
           </p>
           <p>
-            Исповедуем принципы минимализма и чистоты. Ставим математический<br>
+            Исповедуем принципы минимализма и чистоты. Ставим математический
             расчет выше креатива. Работаем не покладая рук, как роботы.
           </p>
         </div>
@@ -93,7 +95,7 @@
       </div>
       <div class="about-bottom clearfix">
         <div class="about-left">
-          <span>Выполняем заказы на разработку:</span>
+          <p>Выполняем заказы на разработку:</p>
           <ul>
             <li>Веб-сайтов любой сложности</li>
             <li>Мобильных приложений для iOS и Android</li>
@@ -101,7 +103,7 @@
           </ul>
         </div>
         <div class="about-right">
-          <span>Как мы работаем:</span>
+          <p>Как мы работаем:</p>
           <ul>
             <li>С самоотдачей 146%</li>
             <li>Соблюдая сроки на 100%</li>
@@ -110,7 +112,7 @@
         </div>
       </div>
     </div>    
-  </div>
+  </section>
     
   <div class="partners">
     <div class="container">
@@ -121,24 +123,27 @@
   </div>
     
   <footer>
-    <div class="map">
+    <div class="wrapper">
+      <div id="map">
+      </div>
+      <address>
+        <b>NЁRDS DESIGN STUDIO</b>
+        <p>
+          191186, Санкт-Петербург,
+          ул. Б. Конюшенная, д. 19/8
+        </p>
+        <p>
+          тел. +7 (812) 275-75-75
+        </p>
+        <a href="#" class="btn">Напишите нам</a>
+      </address>
+    </div>
+    <div class="social">
       <div class="container">
-        <div class="contacts">
-          <b>NЁRDS DESIGN STUDIO</b>
-          <p>
-            191186, Санкт-Петербург,<br>
-            ул. Б. Конюшенная, д. 19/8
-          </p>
-          <p>
-            тел. +7 (812) 275-75-75
-          </p>
-          <a href="#" class="btn">Напишите нам</a>
-        </div>
-        <div class="social">
           <div class="social-icons">
-            <a href="#">VK<img src="../img/icon-vk.png" height="15" width="26" alt="Vkontakte"></a>
-            <a href="#">F<img src="../img/icon-facebook.png" height="22" width="12" alt="Facebook"></a>
-            <a href="#">I<img src="../img/icon-instagram.png" height="21" width="21" alt="Instagram"></a>
+            <a href="#"><i class="fa fa-vk on fa-circle" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
           <div class="social-slogan">
             <b>Давайте дружить, это выгодно!</b>
@@ -146,7 +151,8 @@
           </div>
         </div>
       </div>
-    </div>
   </footer>
+  <script src="js/map.js" type="text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
   </body>
 </html>
