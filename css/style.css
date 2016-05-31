@@ -169,19 +169,21 @@ body {
   max-width: 240px;
 }
 
-.about-slogan {
+.about-top h2 {
   font-size: 36px;
   line-height: 36px;
   color: #000000;
+  margin: 0;
+  margin-top: 10px;
+  padding-bottom: 2px;
 }
 
-.about-top p {
-  padding-top: 2px;
+.about-bottom {
+  padding-bottom: 58px;
 }
 
 .about-bottom p {
   text-transform: uppercase;
-  padding-top: 12px;
 }
 
 .about-bottom ul {
@@ -191,33 +193,46 @@ body {
 }
 
 .about-bottom li {
-
+  padding: 11px;
+  padding-left: 37px;
+  position: relative;
 }
 
 .about-bottom li::before {
-
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: #fb565a;
 }
 
 .partners {
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
-  padding-top: 50px;
-  height: 166px;
+  padding: 22px 10px;
   margin-bottom: 85px;
   vertical-align: middle;
   font-size: 0px;
   text-align: center;
 }
 
+.partner-1 {
+  text-align: left;
+}
+
+.partner-3 {
+  text-align: right;
+}
+
 .partners a {
-  line-height: 120px;
-  width: 280px;
+  line-height: 125px;
+  width: 270px;
   height: 120px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
-  text-align: center;
-
 }
 
 .partners a:last-child {
@@ -230,44 +245,47 @@ body {
 
 .wrapper {
   position: relative;
+  max-width: 2560px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #map {
   width: 100%;
   height: 415px;
-}
-
-.contacts {
-  
+  z-index: 1;
 }
 
 address {
-  float:left;
+  line-height: 30px;
   margin-top: 88px;
   background-color: #ffffff; 
   padding-left: 20px;
-  padding-top: 33px;
+  padding-top: 25px;
   padding-bottom: 26px;
-  width: 250px;
+  width: 230px;
   text-decoration: none;
   font-style: normal;
   position: absolute; 
-  top: 10px; 
-  left: 400px; 
+  top: 0px; 
+  left: 27%;
   z-index: 3;
+  color: #000000;
 }
 
 address p {
   max-width: 210px;
+  color: #666666;
+  line-height: 20px;
 }
 
 address .btn {
+  margin-top: 10px;
   padding: 10px 54px;
 }
 
 .social {
   padding-top: 78px;
-  height: 215px;
 }
 
 .social-icons {
@@ -290,10 +308,15 @@ address .btn {
 
 .social-slogan {
   float: left;
+    margin-bottom: 30px;
 }
 
 .social-slogan b {
   font-size: 36px;
   line-height: 36px;
   color: #000000;
+}
+
+.social-slogan p {
+  margin-top: 10px;
 }
