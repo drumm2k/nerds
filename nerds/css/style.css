@@ -254,7 +254,7 @@ body {
 }
 
 .partner-1 {
-  background-image: url("img/glukhanko.png");
+  background-image: url(img/glukhanko.png);
   background-repeat: no-repeat;
   background-position: left;
   height: 37px;
@@ -267,7 +267,7 @@ body {
 }
 
 .partner-2 {
-  background-image: url("img/htmlacademy.png");
+  background-image: url(img/htmlacademy.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 68px;
@@ -280,7 +280,7 @@ body {
 }
 
 .partner-3 {
-  background-image: url("img/borodinski.png");
+  background-image: url(img/borodinski.png);
   background-repeat: no-repeat;
   background-position: right;
   height: 86px;
