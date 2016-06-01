@@ -127,6 +127,7 @@ body {
 
 .btn:active {
   background-color: #b63538;
+  box-shadow: inset 0 3px #9b2d30;
 }
 
 .features .container {
@@ -176,6 +177,7 @@ body {
 
 .features-2 .btn:active {
   background-color: #009053;
+  box-shadow: inset 0 3px #007b47;
 }
 
 .features-3 .btn {
@@ -188,6 +190,7 @@ body {
 
 .features-3 .btn:active {
   background-color: #c09b24;
+  box-shadow: inset 0 3px #a3841f;
 }
 
 .about {
