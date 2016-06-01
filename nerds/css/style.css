@@ -72,7 +72,7 @@ body {
   color: #fb565a;
 }
 
-.main-nav a:active {
+.main-nav a:active, .main-nav a:active .fa-shopping-cart {
   color: #8f8f8f;
 }
 
