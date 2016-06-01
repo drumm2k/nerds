@@ -333,6 +333,7 @@ address .btn {
 .social-icons {
   float: left;
   width: 320px;
+  font-size: 0;
 }
 
 .social-icons a {
@@ -341,7 +342,7 @@ address .btn {
   vertical-align: top;
   width: 62px;
   height: 62px;
-  margin-right: 24px;
+  margin-right: 27px;
   color: #ffffff;
   line-height: 62px;
   text-align: center;
