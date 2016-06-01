@@ -3,7 +3,7 @@ body {
   min-width: 900px;
   margin: 0 auto;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #283136;
@@ -46,6 +46,7 @@ body {
 
 .main-nav li {
   display: inline-block;
+  vertical-align: top;
   margin-left: 46px;
 }
 
@@ -99,6 +100,7 @@ body {
 
 .btn {
   display: inline-block;
+  vertical-align: top;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 18px;
@@ -254,6 +256,7 @@ body {
   width: 100%;
   height: 415px;
   z-index: 1;
+  background-color: #eeeeee;
 }
 
 address {
@@ -296,6 +299,7 @@ address .btn {
 .social-icons a {
   background-color: #e1e1e1;
   display: inline-block;
+  vertical-align: top;
   width: 62px;
   height: 62px;
   margin-right: 24px;
