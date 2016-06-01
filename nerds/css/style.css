@@ -82,7 +82,7 @@ body {
 
 .slider {
   margin-bottom: 80px;
-  padding-top: 47px;
+  margin-top: 47px;
   padding-bottom: 63px;
 }
 
@@ -191,8 +191,8 @@ body {
 }
 
 .about-top {
-  padding-top: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 60px;
 }
 
 .about-left {
@@ -210,16 +210,17 @@ body {
   line-height: 36px;
   color: #000000;
   margin: 0;
-  margin-top: 10px;
-  padding-bottom: 2px;
+  padding-top: 10px;
+
 }
 
 .about-bottom {
-  padding-bottom: 58px;
+  margin-bottom: 60px;
 }
 
 .about-bottom p {
   text-transform: uppercase;
+  margin-bottom: 10px
 }
 
 .about-bottom ul {
@@ -247,19 +248,48 @@ body {
 .partners {
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
-  padding: 22px 10px;
+  padding: 23px 12px;
   margin-bottom: 85px;
-  vertical-align: middle;
   font-size: 0px;
-  text-align: center;
 }
 
 .partner-1 {
-  text-align: left;
+  background-image: url("/img/glukhanko.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 37px;
+  width: 198px;
+  opacity: 0.2;
+}
+
+.partner-1:hover {
+  opacity: 1;
+}
+
+.partner-2 {
+  background-image: url("/img/htmlacademy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 68px;
+  width: 199px;
+  opacity: 0.2;
+}
+
+.partner-2:hover {
+  opacity: 1;
 }
 
 .partner-3 {
-  text-align: right;
+  background-image: url("/img/borodinski.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 86px;
+  width: 209px;
+  opacity: 0.2;
+}
+
+.partner-3:hover {
+  opacity: 1;
 }
 
 .partners a {
@@ -322,7 +352,7 @@ address .btn {
 }
 
 .social {
-  padding-top: 78px;
+  margin-top: 78px;
 }
 
 .social-icons {
