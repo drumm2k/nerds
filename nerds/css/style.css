@@ -34,7 +34,7 @@ body {
 
 .main-nav {
   float: right;
-  max-width: 680px;
+  width: 680px;
   margin-top: 30px;
   margin-bottom: 53px;
 }
@@ -129,7 +129,7 @@ body {
   background-color: #b63538;
 }
 
-.features {
+.features .container {
   padding-bottom: 80px;
   border-bottom: 2px solid #eeeeee;
 }
@@ -159,7 +159,7 @@ body {
 }
 
 .features-2 p {
-  max-width: 215px;
+  width: 215px;
 }
 
 .features-item .btn {
@@ -206,7 +206,7 @@ body {
 
 .about-right {
   float: right;
-  max-width: 240px;
+  width: 240px;
 }
 
 .about-top h2 {
@@ -244,10 +244,13 @@ body {
   background: #fb565a;
 }
 
-.partners {
+.partners .container {
+  padding: 23px 12px;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
-  padding: 23px 12px;
+}
+
+.partners {
   margin-bottom: 85px;
   font-size: 0px;
   text-align: center;
@@ -292,18 +295,16 @@ body {
 
 .map-inner {
   position: relative;
-  max-width: 880px;
+  width: 880px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .contacts {
-  color: #000000;
-  line-height: 30px;
   background-color: #ffffff; 
   padding-left: 20px;
   padding-top: 25px;
-  padding-bottom: 26px;
+  padding-bottom: 25px;
   width: 230px;
   position: absolute; 
   top: 88px; 
@@ -311,8 +312,13 @@ body {
   z-index: 3;
 }
 
+.contacts b {
+  color: #000000;
+  line-height: 30px;
+}
+
 .contacts p {
-  max-width: 210px;
+  width: 210px;
   color: #666666;
   line-height: 20px;
 }
