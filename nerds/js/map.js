@@ -9,7 +9,7 @@ function initMap() {
   
   // Create a marker and set its position.
   var marker = new google.maps.Marker({
-    icon: '../img/map_point.png',
+    icon: '/img/map_point.png',
     map: map,
     position: myLatLng,
     title: 'Nerds'
