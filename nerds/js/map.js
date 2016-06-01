@@ -1,17 +1,18 @@
-var map;
-function initMap() {
-  var myLatLng = {lat: 59.9388, lng: 30.3237};
-  
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 59.9393, lng: 30.3198},
-    zoom: 17
+ymaps.ready(init);
+var myMap,
+  myPlacemark;
+
+function init(){
+  myMap = new ymaps.Map ("map", {
+    center: [59.939136, 30.320000],
+      zoom: 17
   });
-  
-  // Create a marker and set its position.
-  var marker = new google.maps.Marker({
-    icon: 'img/map_point.png',
-    map: map,
-    position: myLatLng,
-    title: 'Nerds'
+
+  myPlacemark = new ymaps.Placemark([59.939483, 30.322645], {}, {
+    iconLayout: "default#image",
+    iconImageHref: "img/map_point.png",
+    iconImageSize: [231, 190]
   });
+
+  myMap.geoObjects.add(myPlacemark);
 }

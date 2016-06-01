@@ -283,9 +283,8 @@ body {
   opacity: 1;
 }
 
-.map {
+#map {
   height: 415px;
-  max-width: 2560px;
   margin-right: auto;
   margin-left: auto;
   background-color: #eeeeee;
